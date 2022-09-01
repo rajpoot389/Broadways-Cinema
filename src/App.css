@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #211f1f;
+    color: white;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.nav-container img {
+    height: 3rem;
+    transform: rotate(-20deg)
+}
+
+.carasoul-container {
+
+    position: relative;
+    top: -2.8rem;
+
+}
+
+.Showdata-section img {
+    height: 22rem;
+    transition: transform 0.4s ease-in;
+}
+
+.Showdata-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    position: relative;
+    top: -4rem;
+}
+
+.Showdata-section img:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+/* For movieData componenet */
+.movieDiscription-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+
+}
+
+.movieDiscription-section img {
+    height: 32rem;
+}
+
+.movie-dicsription-width {
+    width: 46rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+}
+
+.align-top {
+    align-content: flex-start;
+    color: #777;
+}
+
+.movie-disc {
+    height: 32rem;
+}
+
+.movie-title {
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.lists {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lists ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.about {
+    font-weight: 500;
+}

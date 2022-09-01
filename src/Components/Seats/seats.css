@@ -1,0 +1,164 @@
+.seat-head-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seat-head-title p {
+    color: #777;
+}
+
+.seat-head-title h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.seat-head-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.seat-head-container p {
+    font-size: 1.4rem;
+}
+
+.box {
+    height: 2rem;
+    width: 2rem;
+}
+
+.sold {
+    background-color: #918a8a;
+
+}
+
+.availble {
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid black;
+}
+
+.selected {
+    background-color: #2e7d32;
+    ;
+}
+
+.seat-identification {
+    display: flex;
+    gap: 1rem;
+}
+
+.seat-head-buttons {
+    display: flex;
+    /* border: 2px dotted red; */
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    top: -1rem;
+}
+
+.seat-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.seat-identification p {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: 0.6rem;
+}
+
+/*
+Design For Seat Grid Container
+*/
+.seat-grid-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat {
+    height: 2.4rem;
+    width: 2.4rem;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+}
+
+.seat:nth-of-type(3) {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.seat:nth-last-of-type(3) {
+    margin-left: 3rem;
+}
+
+.seat-number {
+    display: flex;
+    gap: 1rem;
+}
+
+.seat-top-number {
+    /* border: 1px solid red; */
+    height: 2.4rem;
+    width: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e7d32;
+    font-weight: 500;
+}
+
+.seat-top-number:nth-of-type(3) {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.seat-top-number:nth-last-of-type(3) {
+    margin-left: 3rem;
+}
+
+.price {
+    align-self: flex-start;
+    margin-left: 19rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+.screen {
+    width: 43rem;
+    border: 1px solid black;
+    margin-top: 3rem;
+}
+
+.btn-book {
+    align-self: flex-end;
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+
+/*
+Operations
+*/
+
+.select {
+    background-color: #2e7d32;
+}
+
+.seat.occupied {
+    background-color: #918a8a;
+}
+
+.availble {
+    background-color: white;
+}
